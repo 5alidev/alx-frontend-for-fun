@@ -722,7 +722,7 @@
 
   .form-group:focus-within {
     background-color: var(--color-light-grey);
-    transform: .3s;
+    transition: .3s;
   }
 
   /* Form field
