@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #c96868;
+}
+
+a {
+  position: relative;
+}
+
+h2 a::after {
+  content: "";
+  width: 0px;
+  height: 3px;
+  background-color: #c96868;
+  display: block;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+h2 a:hover::after {
+  width: 100%;
+}
